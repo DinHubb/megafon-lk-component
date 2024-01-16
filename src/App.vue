@@ -536,12 +536,12 @@ const scrollToTop = () => {
               >
             </div>
           </div>
-          <div class="">
+          <div>
             <TabGroup>
               <TabList
-                class="flex justify-between gap-6 font-bold py-2 px-5 rounded-lg bg-[rgba(246,246,246,1)] shadow-[rgba(17,17,26,0.05)] overflow-x-auto scrollbar-thin shadow-xl mb-7 text-nowrap max-sm:text-sm max-sm:px-3 max-sm:gap-4"
+                class="flex justify-between gap-6 font-bold py-2 px-5 rounded-lg bg-[rgba(246,246,246,1)] shadow-[rgba(17,17,26,0.05)] overflow-x-auto scrollbar-none shadow-xl mb-7 text-nowrap max-sm:text-sm max-sm:px-3 max-sm:gap-2"
               >
-                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-[118px]">
+                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-24">
                   <button
                     :class="[
                       'py-4 px-1 rounded-lg w-full active:opacity-55',
@@ -551,7 +551,7 @@ const scrollToTop = () => {
                     Тарифы
                   </button>
                 </Tab>
-                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-[118px]">
+                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-24">
                   <button
                     :class="[
                       'py-4 px-1 rounded-lg w-full active:opacity-55',
@@ -561,7 +561,7 @@ const scrollToTop = () => {
                     Звонки
                   </button>
                 </Tab>
-                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-[118px]">
+                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-24">
                   <button
                     :class="[
                       'py-4 px-1 rounded-lg w-full active:opacity-55',
@@ -571,7 +571,7 @@ const scrollToTop = () => {
                     Счет и баланс
                   </button>
                 </Tab>
-                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-[118px]">
+                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-24">
                   <button
                     :class="[
                       'py-4 px-1 rounded-lg w-full active:opacity-55',
@@ -581,7 +581,7 @@ const scrollToTop = () => {
                     Финансы
                   </button>
                 </Tab>
-                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-[118px]">
+                <Tab v-slot="{ selected }" class="w-full outline-none max-sm:min-w-24">
                   <button
                     :class="[
                       'py-4 px-1 rounded-lg w-full active:opacity-55',
@@ -597,7 +597,7 @@ const scrollToTop = () => {
                 <TabPanel>
                   <TabGroup>
                     <TabList
-                      class="flex gap-[10px] mb-5 pb-4 font-bold text-nowrap overflow-x-auto scrollbar-thin max-sm:text-xs"
+                      class="flex gap-[10px] mb-5 pb-4 font-bold text-nowrap overflow-x-auto scrollbar-none max-sm:text-xs"
                     >
                       <Tab v-slot="{ selected }" class="rounded-[100px] outline-none">
                         <button
